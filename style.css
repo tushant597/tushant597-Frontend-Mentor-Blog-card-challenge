@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Figtree';
+    box-sizing: border-box;
+}
+body{
+    background: hsl(47, 88%, 63%);
+    padding-top: 3rem;
+}
+.container{
+    width: 355px;
+    height: 480px;
+    background: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 1.2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.5rem 0.5rem black;
+    padding: 1.4rem;
+}
+.card{
+    width: 310px;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+.tag{
+    background:  hsl(47, 88%, 63%);
+    width: 5.5rem;
+    height: 1.8rem;
+    padding-top: 0.3rem;
+    font-weight: 800;
+    border-radius: 0.3rem;
+}
+.tag-box{
+    text-align: center;
+}
+.published{
+    margin-top: 1rem;
+}
+h1{
+    color: hsl(0, 0%, 7%);
+    font-size: 20px;
+    margin-top: 1rem;
+}
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.detail{
+    margin-top: 1rem;
+    color: hsl(0, 0%, 50%);
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+.name{
+    position: relative;
+    left: 2.5rem;
+    bottom: 1.7rem;
+    font-weight: 800;
+}
